@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: mysql-db
-          image: mysql-db:1.0
+          image: localhost:39533/mysql-db:1.0
           env:
             - name: MYSQL_ROOT_PASSWORD
               valueFrom:
